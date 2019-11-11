@@ -1,1 +1,69 @@
-$main_font: 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,500&display=swap');
+
+$main_font: 'Roboto', sans-serif;
+$body_font: 'Open Sans', sans-serif;
+$pink: #FF43F9;
+$blue: #00C2AE;
+$grey: #B3B3B3;
+
+body{
+    background-color: #1A1A1A;
+    
+    /*navigation*/
+    nav{
+	    text-decoration: none;
+		width:100vw!important;
+		z-index:90; position:fixed;
+		text-align: right;
+		font-family: $main_font;
+  	}
+	.navList{
+		display: inline-block;
+	}
+	.navItem{
+		display: inline-block!important;
+		font-size: 23px!important;
+		font-family: $main_font;
+		font-weight: 300!important;
+	}
+	a{
+		text-decoration: none;
+		color: $grey;
+		font-size: 23px!important;
+        font-weight: 300!important;
+        
+        :link{
+            text-decoration: none;
+            color: $grey;
+            font-size: 23px!important;
+            font-weight: 300!important;
+        }
+        :visited{
+            color: $blue;
+        }
+	}
+	.navItem{
+		color: $grey;
+		margin: 30px;
+    }
+    /*heading*/
+    .openingTxt{
+        margin-left: 5%;
+        width: 80%;
+
+        .hello{
+            font-size: 85px;
+            color: $grey;
+            font-family: $main_font;
+            font-weight: 200;
+            text-align: left;
+    
+            .pinkTxt{
+                color: $pink!important;
+            }
+            .blueTxt{
+                color: $blue!important;
+            }
+        }
+    }
+}
