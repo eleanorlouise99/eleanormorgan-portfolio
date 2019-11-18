@@ -5,17 +5,22 @@ $body_font: 'Open Sans', sans-serif;
 $pink: #FF43F9;
 $blue: #00C2AE;
 $grey: #B3B3B3;
+$left_margin: 5%;
 
 body{
     background-color: #1A1A1A;
+    margin: 0;
     
     /*navigation*/
     nav{
 	    text-decoration: none;
 		width:100vw!important;
-		z-index:90; position:fixed;
+        z-index:90; 
+        position:fixed;
+        top: 0;
 		text-align: right;
-		font-family: $main_font;
+        font-family: $main_font;
+        background: #1a1a1a;
   	}
 	.navList{
 		display: inline-block;
@@ -48,8 +53,9 @@ body{
     }
     /*heading*/
     .openingTxt{
-        margin-left: 5%;
+        margin-left: $left_margin;
         width: 80%;
+        margin-top: 12%;
 
         .hello{
             font-size: 85px;
@@ -65,5 +71,20 @@ body{
                 color: $blue!important;
             }
         }
+    }
+    #homeWebWork, #homeUiWork, #homeGraphicWork{
+        height: 200px;
+    }
+    #homeWebWork{
+        background-image: url("images/web-development-celeste.png");
+        background-size: cover;                    
+    }
+    #homeUiWork{
+        background-image: url("images/ui-design-music-app.png");
+        background-size: cover;                    
+    }
+    #homeGraphicWork{
+        background-image: url("images/graphic-design-ebook.png");
+        background-size: cover;                    
     }
 }

@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:100,300,400,500&display=swap");
 body {
   background-color: #1A1A1A;
+  margin: 0;
   /*navigation*/
   /*heading*/
 }
@@ -9,8 +10,10 @@ body nav {
   width: 100vw !important;
   z-index: 90;
   position: fixed;
+  top: 0;
   text-align: right;
   font-family: "Roboto", sans-serif;
+  background: #1a1a1a;
 }
 body .navList {
   display: inline-block;
@@ -41,8 +44,9 @@ body .navItem {
   margin: 30px;
 }
 body .openingTxt {
-  margin-left: 15%;
+  margin-left: 5%;
   width: 80%;
+  margin-top: 12%;
 }
 body .openingTxt .hello {
   font-size: 85px;
@@ -56,6 +60,21 @@ body .openingTxt .hello .pinkTxt {
 }
 body .openingTxt .hello .blueTxt {
   color: #00C2AE !important;
+}
+body #homeWebWork, body #homeUiWork, body #homeGraphicWork {
+  height: 200px;
+}
+body #homeWebWork {
+  background-image: url("images/web-development-celeste.png");
+  background-size: cover;
+}
+body #homeUiWork {
+  background-image: url("images/ui-design-music-app.png");
+  background-size: cover;
+}
+body #homeGraphicWork {
+  background-image: url("images/graphic-design-ebook.png");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
