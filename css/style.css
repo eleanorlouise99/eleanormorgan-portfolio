@@ -4,6 +4,7 @@ body {
   margin: 0;
   /*navigation*/
   /*heading*/
+  /*CONTACT PAGE*/
 }
 body nav {
   text-decoration: none;
@@ -75,6 +76,48 @@ body #homeUiWork {
 body #homeGraphicWork {
   background-image: url("images/graphic-design-ebook.png");
   background-size: cover;
+}
+body .scndHeading {
+  font-size: 65px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #B3B3B3;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+body .scndHeading .pinkTxt {
+  color: #FF43F9 !important;
+}
+body .scndHeading .blueTxt {
+  color: #00C2AE !important;
+}
+body .contactTxt {
+  margin-left: 5%;
+  width: 60vw;
+}
+body .contactTxt .copy {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #B3B3B3;
+}
+body #section1 {
+  margin-left: 5%;
+}
+body #section1 input, body #section1 textarea {
+  margin-top: 1%;
+  border-radius: 6px 6px 6px 6px;
+  border-color: #FF43F9;
+  padding: 0.5rem;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  width: 30%;
+  background-color: #1a1a1a;
+}
+body #section1 textarea {
+  width: 50%;
+}
+body #section1 input[type=submit] {
+  background-color: #FF43F9 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

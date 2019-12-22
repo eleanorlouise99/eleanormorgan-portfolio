@@ -65,8 +65,8 @@
    </div>
 
    <div class="contactTxt">
-       <p class="copy"><!--INSERT CONTACT TEXT HERE--><br>
-                        <br>@: eleanorlouise99@gmail.comS</p>
+       <p class="copy">Interested in working with me? Drop me an email or fill out the contact formbelow and I'll get back to you ASAP.<br>
+                        <br>@: eleanorlouise99@gmail.com</p>
    </div>
 
     <!--Contact form-->
@@ -79,9 +79,9 @@
 			
 			<form id="enquiryForm" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>"> 
 				<!--method must be secure - using post is secure-->
-				<input type="text" name="Name" value="<?php if(isset($_POST['Name'])) echo htmlspecialchars($_POST['Name']);?>" placeholder="Name...">
+				<input type="text" name="Name" value="<?php if(isset($_POST['Name'])) echo htmlspecialchars($_POST['Name']);?>" placeholder="Name..."> <br>
 				
-				<input type="email" name="Email" value="<?php if(isset($_POST['Email'])) echo htmlspecialchars($_POST['Email']);?>" placeholder="Email...">
+				<input type="email" name="Email" value="<?php if(isset($_POST['Email'])) echo htmlspecialchars($_POST['Email']);?>" placeholder="Email..."> <br>
 
 				<textarea name="Enquiry" rows="5" cols="40" value="<?php if(isset($_POST['Enquiry'])) echo htmlspecialchars($_POST['Enquiry']);?>" placeholder="Message..."></textarea><br>
 				

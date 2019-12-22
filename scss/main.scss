@@ -87,4 +87,53 @@ body{
         background-image: url("images/graphic-design-ebook.png");
         background-size: cover;                    
     }
+
+    /*CONTACT PAGE*/
+    .scndHeading{
+        font-size: 65px;
+        font-family: $main_font;
+        font-weight: 200;
+        color: $grey;
+        margin-top: 8%;
+        margin-left: $left_margin;
+
+        .pinkTxt{
+            color: $pink!important;
+        }
+        .blueTxt{
+            color: $blue!important;
+        }
+    }
+
+    .contactTxt{
+        margin-left: $left_margin;
+        width: 60vw;
+
+        .copy{
+            font-family: $body_font;
+            font-size: 20px;
+            color: $grey;
+        }
+    }
+
+    #section1{
+        margin-left: $left_margin;
+
+        input, textarea{
+            margin-top: 1%;
+            border-radius: 6px 6px 6px 6px;
+            border-color: $pink;
+            padding: 0.5rem;
+            font-size: 18px;
+            font-family: $body_font;
+            width: 30%;
+            background-color: #1a1a1a;
+        }
+        textarea{
+            width: 50%;
+        }
+        input[type=submit]{
+            background-color: $pink!important;
+        }
+    }
 }
