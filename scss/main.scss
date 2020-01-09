@@ -280,6 +280,12 @@ body{
         }
     }
 
+    .thankYou{
+        font-family: $body_font;
+        font-size: 25px;
+        color: $pink;
+    }
+
     //Contact form
     #section1{
         margin-left: $left_margin;

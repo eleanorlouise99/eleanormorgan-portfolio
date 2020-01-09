@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eleanor Morgan - Web projects</title>
+    <title>Eleanor Morgan - Contact me</title>
 
     <link rel="stylesheet" href="grid/grid.css">
     <link rel="stylesheet" href="css/style.css">
@@ -58,7 +58,7 @@
 	    	    $headers = "From: " . $email;
 	    	    if(!$subject) $subject = "Website Enquiry";
 	    	    mail($to, $subject, $message, $headers);
-	    	    header('Location: thank-you.html');
+	    	    header('Location: thank-you.php');
 	    	    exit;
             }
         }    
@@ -72,23 +72,23 @@
     <nav>
         <ul class="navList">
             <li class="navItem">
-                <a href="#">HOME</a>
+                <a href="http://www.eleanormorgan.co.uk/index.php">HOME</a>
             </li>
             <li class="navItem">
                 <div class="dropdown">
-                    <button onClick="myFunction()" class="dropbtn">WORK</button>
+                    <button onClick="dropdownMenu()" class="dropbtn">WORK</button>
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="#">Web designs</a>
-                        <a href="#">UI designs</a>
-                        <a href="#">Graphic designs</a>
+                        <a href="http://www.eleanormorgan.co.uk/web-designs.php">Web designs</a>
+                        <a href="http://www.eleanormorgan.co.uk/ui-designs.php">UI designs</a>
+                        <a href="http://www.eleanormorgan.co.uk/graphic-designs.php">Graphic designs</a>
                     </div>
                 </div>
             </li>
             <li class="navItem">
-                <a href="#">ABOUT</a>
+                <a href="http://www.eleanormorgan.co.uk/about.php">ABOUT</a>
             </li>
             <li class="navItem">
-                <a href="#">CONTACT</a>
+                <a href="http://www.eleanormorgan.co.uk/contact.php">CONTACT</a>
             </li>
         </ul>
 
@@ -148,7 +148,7 @@
 
     <script>
         //Drop down menu function
-        function myFunction() {
+        function dropdownMenu() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
 
