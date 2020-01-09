@@ -14,33 +14,67 @@
 
 <body>
     <!--Navigation menu-->
-    <?php include "nav.php";?>
+    <nav>
+        <ul class="navList">
+            <li class="navItem">
+                <a href="#">HOME</a>
+            </li>
+            <li class="navItem">
+                <div class="dropdown">
+                    <button onClick="myFunction()" class="dropbtn">WORK</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Web designs</a>
+                        <a href="#">UI designs</a>
+                        <a href="#">Graphic designs</a>
+                    </div>
+                </div>
+            </li>
+            <li class="navItem">
+                <a href="#">ABOUT</a>
+            </li>
+            <li class="navItem">
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+
+        <div class="mobileNav">
+            <div id="myLinks">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Web designs</a>
+              <a href="#">UI designs</a>
+              <a href="#">Graphic designs</a>
+              <a href="#">Contact</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars" id="burger"></i>
+            </a>
+          </div>
+
+    </nav>
 
     <!--Heading-->
    <div class="headContainer">
        <h2 class="scndHeading"><span class="blueTxt">ABOUT</span> ME</h2>
    </div>
 
-    <!--Image and text-->
+    <!--Images-->
     <div class="container">
         <div class="row">
-            <div class="col-4" id="aboutMeTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est neque, laoreet at eleifend a, tempus ut purus. 
-            Morbi felis turpis, sodales eu mollis vitae, euismod et velit. In sem lectus, mattis non dignissim ac, malesuada quis enim. Quisque malesuada, nunc ac varius 
-            porta, orci ipsum feugiat risus, ut bibendum risus sapien id turpis. Phasellus vulputate lorem sit amet laoreet blandit. Ut vel luctus est. Mauris ut enim purus. 
-            Donec rhoncus rutrum est. Aliquam erat volutpat.<br>
-            <br>
-            Vivamus ornare diam vel dolor posuere commodo. Vivamus semper ante non massa aliquet consectetur. Fusce tortor ipsum, aliquet id libero a, eleifend consequat massa. 
-            Quisque feugiat consectetur nisl quis malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque molestie nunc eu 
-            felis porttitor, a eleifend purus rhoncus. Vestibulum quis accumsan ipsum. In scelerisque nibh ut consectetur pulvinar. Integer vel placerat risus, suscipit aliquam 
-            mi.<br>
-            <br> 
-            Donec in aliquam ex, suscipit sodales eros. Nam egestas, risus ut molestie aliquam, nisl mauris gravida urna, bibendum ultrices nibh nisi bibendum arcu. Praesent in 
-            sagittis dolor, ut accumsan ante. Quisque dignissim, nibh dapibus euismod auctor, erat massa aliquam erat, vitae lobortis sem felis eu tortor. Cras finibus nulla non 
-            tellus efficitur posuere. Suspendisse ultrices, elit eu malesuada dapibus, lacus nunc ultricies arcu, ut ultrices ligula neque ac ante. Proin ut ullamcorper tortor, in 
-            lacinia mauris. Aenean dictum dictum neque, ac consequat mi elementum nec. Duis feugiat, metus id pellentesque lacinia, odio dui commodo justo, scelerisque facilisis 
-            dui massa quis leo. In sit amet finibus mi. Maecenas efficitur dolor non tincidunt aliquet. Vestibulum tincidunt, velit eget sollicitudin porttitor, erat ex commodo ipsum, 
-            non cursus felis tellus eu urna. Suspendisse laoreet ac nulla non rutrum. Duis id tortor a elit rutrum commodo a eu tortor. Pellentesque scelerisque laoreet lacinia. 
-            Nulla facilisi.
+            <div class="col-4" id="aboutMeTxt">Both design and computing have always been strong passions of mine, ever since a young age I would be
+                playing around with computers or designing calenders and brochures on Microsoft paint. As I grew up,
+                both of these interests combined when I began studying graphic design and web development, these
+                subjects allowed me to combine both my artistic and technical skills.<br>
+                <br>
+                In terms of graphic design, I focus on layout design such as books, brochures and posters. I am heavily
+                inspired by the swiss style of design, therefore much of my work consists of clean layouts and sleek,
+                 modern forms of typography. See some of my graphic designs work here.<br>
+                <br>
+                When it comes to my web development work, I am a front end developer and therefore focus on both the
+                design and development of the site. I have experience in languages such as HTML, CSS, Javascript, JQuery,
+                Python and PHP. On top of this, I have used sites such as Wordpress and Ecommerce systems such as
+                WooCommerce and Shopify. My aim with all website designs is to create simplistic, easy to use yet stylish
+                user interfaces, see some of my web work here.
             </div>
             <div class="col-8" id="aboutMeImg"><img src="images\eleanor-morgan.jpg" alt="image of eleanor morgan" id="aboutImg"></div>
         </div>
