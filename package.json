@@ -1,0 +1,22 @@
+{
+  "name": "website-design-project",
+  "version": "1.0.0",
+  "description": "This portfolio will focus on a web and graphic design portfolio site featuring of 6 main pages, these will include: Home, Web projects, UI designs, Graphic designs, About and Contact. The site will mainly focus on presenting the designers work, therefore using large images and a minimal colour palette to ensure the focus is mainly on that.",
+  "main": "jquery-3.4.1.min.js",
+  "scripts": {
+    "sass-watch": "sass --watch  scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eleanorlouise99/website-design-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eleanorlouise99/website-design-project/issues"
+  },
+  "homepage": "https://github.com/eleanorlouise99/website-design-project#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
