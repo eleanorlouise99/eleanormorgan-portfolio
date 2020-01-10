@@ -25,7 +25,7 @@
             <div id="myLinks">
               <a href="http://www.eleanormorgan.co.uk/index.php">Home</a>
               <a href="http://www.eleanormorgan.co.uk/web-designs.php">Web designs</a>
-              <a href="http://www.eleanormorgan.co.ukui-designs.php">UI designs</a>
+              <a href="http://www.eleanormorgan.co.uk/ui-designs.php">UI designs</a>
               <a href="http://www.eleanormorgan.co.uk/graphic-designs.php">Graphic designs</a>
               <a href="http://www.eleanormorgan.co.uk/about.php">About</a>
               <a href="http://www.eleanormorgan.co.uk/contact.php">Contact</a>
