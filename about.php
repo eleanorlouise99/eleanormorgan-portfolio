@@ -61,7 +61,7 @@
     <!--Images-->
     <div class="container">
         <div class="row">
-            <div class="col-4" id="aboutMeTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus fermentum urna, 
+            <div class="col-7" id="aboutMeTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus fermentum urna, 
                 in tincidunt tellus sodales et. Mauris in orci imperdiet, porttitor tortor eu, mollis nisl. Duis condimentum, tellus ut 
                 convallis volutpat, dolor nibh maximus sapien, sit amet accumsan odio est quis dui. Mauris sodales sem et nunc bibendum 
                 sagittis. Aenean in velit sollicitudin leo tempus dictum. Mauris scelerisque, orci ut sodales congue, est sem mollis 
@@ -81,7 +81,7 @@
                 dignissim efficitur, metus sapien finibus velit, quis aliquam metus mauris non sapien. Vivamus fringilla, tellus eu faucibus 
                 aliquet, libero metus varius ligula, a eleifend tortor ligula at mi.
             </div>
-            <div class="col-8" id="aboutMeImg"><img src="images\eleanor-morgan.jpg" alt="image of eleanor morgan" id="aboutImg"></div>
+            <div class="col-5" id="aboutMeImg"><img src="images\eleanor-morgan.jpg" alt="image of eleanor morgan" id="aboutImg"></div>
         </div>
     </div>
 

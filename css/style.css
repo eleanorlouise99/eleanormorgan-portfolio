@@ -81,6 +81,7 @@ body nav .dropbtn {
 }
 body nav .dropbtn:hover, body nav .dropbtn:focus {
   background-color: #1a1a1a;
+  cursor: pointer;
 }
 body nav .dropdown {
   position: relative;
@@ -93,6 +94,7 @@ body nav .dropdown-content {
   overflow: auto;
   z-index: 1;
   text-align: left;
+  background-color: #1a1a1a;
 }
 body nav .dropdown-content a {
   color: #FF43F9;
@@ -106,7 +108,7 @@ body nav .dropdown-content a :hover {
   background-color: #3f3f3f;
 }
 body .show {
-  display: block;
+  display: block !important;
 }
 body .openingTxt {
   margin-left: 5%;
@@ -145,6 +147,10 @@ body .thirdHeading .pinkTxt {
   color: #FF43F9 !important;
 }
 body .thirdHeading .blueTxt {
+  color: #00C2AE !important;
+}
+body .thirdHeading .blueTxt a {
+  text-decoration: none !important;
   color: #00C2AE !important;
 }
 body .skillsContainer {
@@ -241,6 +247,7 @@ body .thankYou {
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
   color: #FF43F9;
+  margin-bottom: 25%;
 }
 body #section1 {
   margin-left: 5%;
@@ -268,7 +275,7 @@ body #aboutMeTxt {
   color: #B3B3B3;
 }
 body #aboutImg {
-  width: 60%;
+  width: 80%;
   margin-left: 10%;
   box-shadow: 15px 15px 1px #00C2AE;
 }
@@ -295,12 +302,12 @@ body #graphicProjectOne #graphicBook, body #graphicProjectOne #graphicPoster, bo
     text-align: left !important;
   }
   body .mobileNav {
-    display: block;
+    display: block !important;
     padding-left: 1rem;
     padding-bottom: 1rem;
   }
   body .navList {
-    display: none;
+    display: none !important;
   }
   body #burger {
     position: absolute;
@@ -325,11 +332,11 @@ body #graphicProjectOne #graphicBook, body #graphicProjectOne #graphicPoster, bo
     height: 10% !important;
   }
   body .skillbar-title {
-    width: 90px;
-    font-size: 10px;
+    width: 90px !important;
+    font-size: 10px !important;
   }
   body .skillbar-title span {
-    margin-left: -11%;
+    margin-left: -9%;
   }
   body #homeWork {
     margin-bottom: -40%;
@@ -351,6 +358,10 @@ body #graphicProjectOne #graphicBook, body #graphicProjectOne #graphicPoster, bo
     padding-left: 9%;
     font-size: 13px !important;
     padding-right: 5%;
+  }
+  body .thankYou {
+    font-size: 13px !important;
+    margin-bottom: 80%;
   }
   body #section1 {
     margin-left: 9% !important;

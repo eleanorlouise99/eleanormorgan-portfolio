@@ -96,6 +96,7 @@ body{
         }
         .dropbtn:hover, .dropbtn:focus {
             background-color: #1a1a1a;
+            cursor: pointer;
         }
         .dropdown{
             position: relative;
@@ -108,6 +109,7 @@ body{
             overflow: auto;
             z-index: 1;
             text-align: left;
+            background-color: #1a1a1a;
     
             a{
                 color: $pink;
@@ -124,7 +126,7 @@ body{
         }
     }  
     .show{
-        display: block;
+        display: block!important;
     }
 
     //HOMEPAGE
@@ -174,7 +176,13 @@ body{
         }
         .blueTxt{
             color: $blue!important;
+
+            a{
+                text-decoration: none!important;
+                color: $blue!important;
+            }
         }
+        
     }
     .skillsContainer{
         width: 87vw;
@@ -284,6 +292,7 @@ body{
         font-family: $body_font;
         font-size: 25px;
         color: $pink;
+        margin-bottom: 25%;
     }
 
     //Contact form
@@ -318,7 +327,7 @@ body{
     }
     //Image
     #aboutImg{
-        width: 60%;
+        width: 80%;
         margin-left: 10%;
         box-shadow: 15px 15px 1px $blue;
     }
@@ -361,12 +370,12 @@ body{
             text-align: left!important ;
         }
         .mobileNav{
-            display: block;
+            display: block!important;
             padding-left: 1rem;
             padding-bottom: 1rem;
         }
         .navList{
-            display: none;
+            display: none!important;
         }
         #burger{
             position: absolute;
@@ -398,11 +407,11 @@ body{
 
         //Skill bars
         .skillbar-title{
-            width: 90px;
-            font-size: 10px;
+            width: 90px!important;
+            font-size: 10px!important;
 
             span{
-                margin-left: -11%;
+                margin-left: -9%;
             }
         }
 
@@ -439,6 +448,10 @@ body{
             padding-right: 5%;
         }
 
+        .thankYou{
+            font-size: 13px!important;
+            margin-bottom: 80%;
+        }
         //Contact form
         #section1{
             margin-left: 9%!important;
@@ -463,5 +476,6 @@ body{
         #graphicProjectOne, #graphicProjectTwo , #graphicProjectThree , #graphicProjectFour{
             height: 100%!important;
         }
+
     }
 }

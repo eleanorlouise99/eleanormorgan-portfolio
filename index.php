@@ -82,28 +82,28 @@
 
     <!--Skill bars-->
     <div class="skillsContainer">
-        <div class="skillbar clearfix " data-percent="90%">
+        <div class="skillbar clearfix " data-percent="100%">
             <div class="skillbar-title" style="background: #FF43F9"><span>HTML5</span></div>
             <div class="skillbar-bar" style="background: rgb(255, 130, 251)"></div>
-            <div class="skill-bar-percent">90%</div>
+            <div class="skill-bar-percent">100%</div>
         </div> <!-- End Skill Bar -->
     
-        <div class="skillbar clearfix " data-percent="90%">
+        <div class="skillbar clearfix " data-percent="100%">
             <div class="skillbar-title" style="background: #00C2AE"><span>CSS3</span></div>
             <div class="skillbar-bar" style="background: rgb(91, 221, 208)"></div>
-            <div class="skill-bar-percent">90%</div>
+            <div class="skill-bar-percent">100%</div>
+        </div> <!-- End Skill Bar -->
+    
+        <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: #FF43F9"><span>SASS</span></div>
+            <div class="skillbar-bar" style="background: rgb(255, 130, 251)"></div>
+            <div class="skill-bar-percent">60%</div>
         </div> <!-- End Skill Bar -->
     
         <div class="skillbar clearfix " data-percent="40%">
-            <div class="skillbar-title" style="background: #FF43F9"><span>JavaScript</span></div>
-            <div class="skillbar-bar" style="background: rgb(255, 130, 251)"></div>
-            <div class="skill-bar-percent">40%</div>
-        </div> <!-- End Skill Bar -->
-    
-        <div class="skillbar clearfix " data-percent="20%">
-            <div class="skillbar-title" style="background: #00C2AE;"><span>PHP</span></div>
+            <div class="skillbar-title" style="background: #00C2AE;"><span>JavaScript</span></div>
             <div class="skillbar-bar" style="background: rgb(91, 221, 208);"></div>
-            <div class="skill-bar-percent">20%</div>
+            <div class="skill-bar-percent">40%</div>
         </div> <!-- End Skill Bar -->
 
         <div class="skillbar clearfix " data-percent="75%">
