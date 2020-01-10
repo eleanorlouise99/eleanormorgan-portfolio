@@ -362,6 +362,11 @@ body{
         }
     } 
 
+    @media screen and (min-width: 400px){
+        #homeWork{
+            margin-bottom: -5%!important;
+        }
+    }
     //MOBILE LAYOUT
     @media screen and (max-width: 768px){
 
@@ -417,7 +422,7 @@ body{
 
         //Images
         #homeWork{
-            margin-bottom: -40%;
+            margin-bottom: -40%!important;
         }
 
         //ABOUT ME PAGE
