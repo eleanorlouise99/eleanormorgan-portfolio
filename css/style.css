@@ -297,6 +297,11 @@ body #graphicProjectOne, body #graphicProjectTwo, body #graphicProjectThree, bod
 body #graphicProjectOne #graphicBook, body #graphicProjectOne #graphicPoster, body #graphicProjectOne #graphicEbook, body #graphicProjectOne #graphicMagazine, body #graphicProjectTwo #graphicBook, body #graphicProjectTwo #graphicPoster, body #graphicProjectTwo #graphicEbook, body #graphicProjectTwo #graphicMagazine, body #graphicProjectThree #graphicBook, body #graphicProjectThree #graphicPoster, body #graphicProjectThree #graphicEbook, body #graphicProjectThree #graphicMagazine, body #graphicProjectFour #graphicBook, body #graphicProjectFour #graphicPoster, body #graphicProjectFour #graphicEbook, body #graphicProjectFour #graphicMagazine {
   width: 100%;
 }
+@media screen and (min-width: 400px) {
+  body #homeWork {
+    margin-bottom: -5% !important;
+  }
+}
 @media screen and (max-width: 768px) {
   body nav {
     text-align: left !important;
@@ -339,7 +344,7 @@ body #graphicProjectOne #graphicBook, body #graphicProjectOne #graphicPoster, bo
     margin-left: -9%;
   }
   body #homeWork {
-    margin-bottom: -40%;
+    margin-bottom: -40% !important;
   }
   body .thirdHeading {
     font-size: 20px;
