@@ -24,25 +24,14 @@
     <!--Images-->
     <div class="container">
         <div class="row">
-            <div class="col-7" id="aboutMeTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus fermentum urna, 
-                in tincidunt tellus sodales et. Mauris in orci imperdiet, porttitor tortor eu, mollis nisl. Duis condimentum, tellus ut 
-                convallis volutpat, dolor nibh maximus sapien, sit amet accumsan odio est quis dui. Mauris sodales sem et nunc bibendum 
-                sagittis. Aenean in velit sollicitudin leo tempus dictum. Mauris scelerisque, orci ut sodales congue, est sem mollis 
-                ligula, nec fringilla est diam at libero. Donec ornare mattis diam, ac luctus massa pellentesque non. Duis condimentum 
-                arcu vitae odio pulvinar, nec pharetra tortor placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                Pellentesque non mollis odio, non venenatis mi. Pellentesque diam nibh, finibus in euismod non, commodo sit amet ipsum. 
-                Vestibulum sed nibh vel libero vehicula consequat.<br>
-                <br>
-                Cras lacinia at turpis at dignissim. Maecenas at arcu eros. Aenean vel tortor porta, eleifend risus eu, vehicula elit. 
-                Ut euismod mattis diam, id dapibus est condimentum at. Nullam interdum nibh nulla, sed viverra turpis ullamcorper fringilla. 
-                Aliquam nec nulla at odio porttitor elementum. Vestibulum sit amet tempus ex. Quisque convallis semper tellus id rhoncus. 
-                Vestibulum ac purus interdum, accumsan sem a, semper sem. Curabitur sollicitudin nisl vitae leo lobortis, pretium dapibus 
-                leo viverra. Curabitur id erat ac magna tempus facilisis. Nam vitae justo ut felis suscipit mattis in ac erat.<br>
-                <br>
-                Aliquam lacus mi, tempor nec lectus et, elementum rhoncus sapien. Duis id ultrices quam. Suspendisse pulvinar enim et feugiat 
-                sagittis. Etiam laoreet nec ipsum vitae fermentum. Nunc malesuada ex et metus commodo iaculis. Ut ullamcorper, ante vel 
-                dignissim efficitur, metus sapien finibus velit, quis aliquam metus mauris non sapien. Vivamus fringilla, tellus eu faucibus 
-                aliquet, libero metus varius ligula, a eleifend tortor ligula at mi.
+            <div class="col-7" id="aboutMeTxt">My name is Eleanor, I am a web design student from Southampton. My main interests include front end development, UI design and digital marketing. I started my journey studying digital design advanced diploma at Hove college in Brighton. Prior to this I had hardly any knowledge of graphic or web design however very soon into this course I became intrigued in many of these fields. Over the two years that I was studying there, I learned how to use the adobe creative cloud suite, front end languages such as HTML, CSS, Javascript and how to wordpress and woocommerce as well. I also studied marketing, both digital and traditional. I feel I left Hove college with a strong knowledge of all of these subjects and confident in what I wanted to do.<br>
+			<br>
+			I then went on to the 2nd year of a web design and development (bsc) degree at solent university, which is where i am now. Since joining the university I feel I am constantly strengthening the skills I gained at Hove college, as well as really narrowing it down to what it is I want to pursue.<br>
+			<br>
+			On top of my studies, I have done several freelance projects both in web development and graphic design. This has made a huge difference in my skillset as it forced me to work on things alone, without the help of a tutor.<br>
+			<br>
+			Currently I am working on some projects with friends, as well as searching for a summer internship. If you would like to get in touch, please visit my <a href="eleanormorgan.co.uk/contact.php" class="aboutMeLink">contact me</a> page.
+
             </div>
             <div class="col-5" id="aboutMeImg"><img src="images\eleanor-morgan.jpg" alt="image of eleanor morgan" id="aboutImg"></div>
         </div>

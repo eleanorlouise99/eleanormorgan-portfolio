@@ -279,6 +279,10 @@ body #aboutImg {
   margin-left: 10%;
   box-shadow: 15px 15px 1px #00C2AE;
 }
+body .aboutMeLink {
+  text-decoration: none;
+  color: #FF43F9;
+}
 body #webProjectOne, body #webProjectTwo, body #webProjectThree, body #webProjectFour {
   height: 500px;
 }
